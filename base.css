@@ -5,6 +5,28 @@ html {
     background:grey;
 
 }
-body {
+body {background-color: grey;
 
 }
+
+.display-1 {text-align: center;}
+
+.nav-item active >.btn-primary{
+   background-color:  #ff922b;
+}
+.navbar-nav{ background-color:#ff922b;}
+
+.container1{ background: #ff922b; }
+
+.card-title{
+    text-align: center;
+}
+
+.card-img{
+    width: 100%!important;
+    height: 200px!important;
+    object-fit: cover;
+  }
+  .cen{
+      text-align: center;
+  }

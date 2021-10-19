@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+/*
+RyanWalker Fall2021  
+
+ For classes.html only */
+
+
+
+
+html {
+   background-color: rgb(248, 133, 2);
+   color: rgb(51, 51, 51);
+   font-size: 14px;
+}
+
+
+body {
+   background-color: rgb(211, 211, 211);
+   font-family: Verdana, Geneva, Arial, sans-serif;
+   margin-left: auto;
+   margin-right: auto;
+   width: 1000px;
+}
+
+
+
+
+body > header > img {
+	display: block;
+	width: 100%;
+}
+#center-class{
+	padding:15px;
+	text-align: center;
+	font-size:x-large;
+}
+
+ nav#top {
+	padding: 5px 10px 5px 0px;
+	color: rgb(0, 0, 0);
+	line-height: 1.7em;
+
+	text-align: right;
+	
+	background-color: rgb(243, 101, 6);
+}
+
+
+nav#top a:link, 
+nav#top a:visited 
+{
+	color: rgb(0, 0, 0);
+}
+
+nav#top a:hover, 
+nav#topLinks a:active
+ {
+	color: rgb(248, 237, 212);
+}
+
+nav#mainLinks ul li {
+	background-color: rgb(115, 255, 0);
+	display: block;
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+nav#mainLinks ul li a {
+	color: white;
+	display: block;
+	height: 2.5em;
+	text-align: center;
+	line-height: 2.5em;
+}
+
+nav#mainLinks a:link, nav#mainLinks a:visited {
+	color: white;
+}
+c
+nav#mainLinks a:hover, nav#mainLinks a:active {
+	background-color: rgb(51, 51, 45);
+}
+
+
+
+article {
+   clear: both;
+   padding: 30px 20px 10px 20px;
+}
+
+article header {
+	margin: 20px auto;
+	width: 70%;
+}
+
+article header h1 {
+	color: rgb(228, 92, 13);
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+	             "Century Schoolbook", "Times New Roman", serif;
+	font-size: 3em;
+	text-align: center;
+}
+
+article::after {
+   clear: both;
+   content: "";
+   display: table;
+}
+
+
+/* Section Styles */
+
+section#left {
+	float: right;
+	margin-left: 15%;
+	margin-right: 4%;
+	width: 40%;
+}
+
+section#left p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.note {
+	margin:20px;
+	padding:20px;
+}
+
+
+
+aside {
+	background-color: rgba(204, 0, 231, 0.6);
+	float: right;
+	margin-right: 10%;
+	padding: 20px;
+	width: 26%;
+}
+
+aside h1 {
+	color: rgb(177, 0, 247);
+	font-weight: normal;
+	font-size: 2em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+aside li {
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+aside li.newGroup {
+	margin-top: 15px;
+}
+
+nav#classlist a {
+	color: rgb(51, 51, 51);
+	
+}
+
+
+
+
+footer {
+	background-color: rgb(215, 4, 243);
+	color: white;
+	display: block;
+	padding: 25px;
+}
+
+body > footer > nav.vertical, body > footer > section {
+	float: left;
+	width: 25%;
+}
+
+body > footer > nav.vertical > ul {
+	line-height: 2em;
+}
+
+footer nav a {
+	text-decoration: none;
+}
+
+footer a:visited, footer a:link {
+	color: white;
+}
+
+footer a:hover, footer a:active {
+	color: white;
+}
+
+
+
+
+
+
+
+footer::after {
+   clear: both;
+   
+   content: "";
+
+
+   display: table;
+}
+
+
+@media (max-width:576px) {
+	body{width:400px;}
+.map{max-height:100px;
+	max-width:150px;
+
+}
+	.c{
+	min-height:100px;
+	min-width:300px;}
+
+	.classlist{
+		margin:auto;
+		padding:auto;
+	}
+	aside{margin:auto;
+		padding:auto;
+	min-width:200px;}
+	#left{
+		text-align: left;
+	}
+}

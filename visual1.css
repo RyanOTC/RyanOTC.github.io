@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* For classes.html only */
+
+figure {
+  border-style: solid;
+  border-width: 25px;
+  
+  margin: 20px auto 0px;
+  width: 80%
+}
+figure img { display: block;  width: 100%;}
+
+figure figcaption {
+  background-color: rgb(245, 83, 19);
+  font-family: 'Palatino Linotype', Palatino, 'Times New Roman', serif;
+  font-style: bolder;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+
+
+article header h1 {
+  text-shadow: rgb(181, 211, 181) 2px 2px 1px,
+              rgba(21, 21, 21, 0.66) 30px 5px 25px;
+}
+
+
+body {
+  border-left: 3px solid rgb(51,51,51);
+border-right:  3px solid rgb(51,51,51);
+box-shadow: rgb(51,51,51) 15px 0px 25px,
+            rgb(51,51,51) -15px 0px 25px;
+}
+article {
+ 
+
+  box-shadow: inset rgb(71,71,71) -10px -10px 25px,
+                    inset rgb(71,71,71) 10px 10px 25px;
+}
+aside {
+  background: radial-gradient(white, rgb(151, 222, 151), rgb(16, 180, 16));
+  border: 4px offset rgb(0, 255, 89);
+  border-radius: 40px;
+  box-shadow: rgb(199, 6, 247) 0px 0px 20px 10px;
+}
+
+
+footer {
+  background: linear-gradient(345deg, rgb(185, 9, 255),
+                                      rgb(21, 35, 21) 80%);
+}
